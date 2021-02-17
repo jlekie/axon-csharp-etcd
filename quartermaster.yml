@@ -1,0 +1,6 @@
+module: "@jlekie/quartermaster-csproj"
+identifier: axon.etcd
+projectPath: ./Axon.Etcd.csproj
+projectReferences:
+  - referenceProperty: AxonCommonProjectPath
+    projectIdentifier: axon.core
